@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Altair Jr - Go developer building the Charmbracelet ecosystem">
+  <title>ALTAIR JR :: Go Developer</title>
+  <desc>Cyber style nameplate: clearance OSS-3, location Manaus BR, three capability cards.</desc>
+
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#16a34a" stroke-width="0.6" opacity="0.10"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#16a34a" opacity="0.03"/>
+    </pattern>
+    <linearGradient id="nameFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="55%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#16a34a" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#16a34a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#16a34a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- base -->
+  <rect x="0" y="0" width="1200" height="340" rx="8" fill="#0d1117"/>
+  <rect x="0" y="0" width="1200" height="340" rx="8" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="8" fill="url(#scan)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="8" fill="none" stroke="#16a34a" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- corner brackets -->
+  <g stroke="#16a34a" stroke-width="2.5" fill="none" stroke-opacity="0.85">
+    <path d="M 22 56 L 22 22 L 56 22"/>
+    <path d="M 1144 22 L 1178 22 L 1178 56"/>
+    <path d="M 1178 284 L 1178 318 L 1144 318"/>
+    <path d="M 56 318 L 22 318 L 22 284"/>
+  </g>
+
+  <!-- top row -->
+  <g font-family="ui-monospace, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13">
+    <text x="34" y="44" fill="#22c55e" letter-spacing="1.5" filter="url(#soft)">// CLEARANCE: OSS-3 //</text>
+    <text x="1166" y="44" fill="#6b7280" text-anchor="end" letter-spacing="1.2">LOC :: MANAUS, BR | SYS.V 2.6</text>
+  </g>
+  <rect x="34" y="54" width="1132" height="1" fill="url(#rule)" opacity="0.35"/>
+
+  <!-- name -->
+  <g font-family="ui-monospace, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-weight="700" text-anchor="middle">
+    <text x="602" y="186" font-size="92" letter-spacing="14" fill="#16a34a" opacity="0.30" filter="url(#glow)">ALTAIR JR</text>
+    <text x="600" y="184" font-size="92" letter-spacing="14" fill="none" stroke="#16a34a" stroke-width="1.2" stroke-opacity="0.75">ALTAIR JR</text>
+    <text x="600" y="184" font-size="92" letter-spacing="14" fill="url(#nameFill)">ALTAIR JR</text>
+  </g>
+
+  <!-- role line -->
+  <g font-family="ui-monospace, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" text-anchor="middle" letter-spacing="3.4" fill="#c9d1d9">
+    <rect x="205" y="200" width="120" height="1.5" fill="#16a34a" opacity="0.8"/>
+    <rect x="875" y="200" width="120" height="1.5" fill="#16a34a" opacity="0.8"/>
+    <text x="600" y="208">GO DEVELOPER &#183; TERMINAL UI TOOLING &#183; CHARM BRACELET</text>
+  </g>
+
+  <!-- capability cards -->
+  <g font-family="ui-monospace, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace">
+    <g>
+      <rect x="60" y="232" width="340" height="66" rx="6" fill="#161b22" stroke="#1f2937" stroke-width="1"/>
+      <rect x="60" y="232" width="3" height="66" rx="1.5" fill="#22c55e"/>
+      <circle cx="86" cy="254" r="5" fill="#22c55e"/>
+      <text x="100" y="258" font-size="11.5" letter-spacing="2" fill="#8b949e">LIBRARY SUITE</text>
+      <text x="84" y="282" font-size="15" fill="#4ade80">18 Go libs for Bubble Tea</text>
+    </g>
+    <g>
+      <rect x="430" y="232" width="340" height="66" rx="6" fill="#161b22" stroke="#1f2937" stroke-width="1"/>
+      <rect x="430" y="232" width="3" height="66" rx="1.5" fill="#38bdf8"/>
+      <circle cx="456" cy="254" r="5" fill="#38bdf8"/>
+      <text x="470" y="258" font-size="11.5" letter-spacing="2" fill="#8b949e">SECURITY</text>
+      <text x="454" y="282" font-size="15" fill="#7dd3fc">GPG signed &#183; 2 SSH keys</text>
+    </g>
+    <g>
+      <rect x="800" y="232" width="340" height="66" rx="6" fill="#161b22" stroke="#1f2937" stroke-width="1"/>
+      <rect x="800" y="232" width="3" height="66" rx="1.5" fill="#f59e0b"/>
+      <circle cx="826" cy="254" r="5" fill="#f59e0b"/>
+      <text x="840" y="258" font-size="11.5" letter-spacing="2" fill="#8b949e">FOCUS</text>
+      <text x="824" y="282" font-size="15" fill="#fbbf24">Terminal UI tooling</text>
+    </g>
+  </g>
+</svg>
