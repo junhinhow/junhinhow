@@ -112,6 +112,8 @@ Status:      "Open to collaboration on terminal tooling"
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/junhinhow/junhinhow/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation"/>
+
+<p align="center"><sub>Snake gerada com <a href="https://github.com/junhinhow/snk-rs"><strong>snk-rs</strong></a>, nossa implementacao em Rust do <a href="https://github.com/Platane/snk">Platane/snk</a>.<br/>Snake generated with <strong>snk-rs</strong>, our Rust implementation of <a href="https://github.com/Platane/snk">Platane/snk</a>.</sub></p>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
