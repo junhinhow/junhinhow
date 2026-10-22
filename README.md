@@ -16,29 +16,29 @@
 
 ## Sobre Mim / About Me
 
-**PT:** Sou **Altair Jr**, desenvolvedor Go de **Manaus, Amazonas, Brasil**. Meu foco Ã© preencher as lacunas do ecossistema **Charmbracelet / Bubble Tea** â€” construindo bibliotecas TUI reutilizÃ¡veis, testÃ¡veis e bem documentadas que faltam no stack oficial. Todos os meus commits sÃ£o **assinados com GPG** (chave verificada).
+**PT:** Sou **Altair Jr**, desenvolvedor Go de **Manaus, Amazonas, Brasil**. Meu foco e preencher as lacunas do ecossistema **Charmbracelet / Bubble Tea** - construindo bibliotecas TUI reutilizaveis, testaveis e bem documentadas que faltam no stack oficial. Todos os meus commits sao **assinados com GPG** (chave verificada).
 
-**EN:** I'm **Altair Jr**, a Go developer from **Manaus, Amazonas, Brazil**. My focus is filling the gaps in the **Charmbracelet / Bubble Tea** ecosystem â€” building reusable, testable, well-documented TUI libraries missing from the official stack. All my commits are **GPG-signed** (verified key).
+**EN:** I'm **Altair Jr**, a Go developer from **Manaus, Amazonas, Brazil**. My focus is filling the gaps in the **Charmbracelet / Bubble Tea** ecosystem - building reusable, testable, well-documented TUI libraries missing from the official stack. All my commits are **GPG-signed** (verified key).
 
 ```yaml
-Role:        "Go Developer Â· TUI tooling author"
-Location:    "Manaus, Amazonas, Brazil ðŸ‡§ðŸ‡·"
+Role:        "Go Developer - TUI tooling author"
+Location:    "Manaus, Amazonas, Brazil"
 Stack:       "Go, Charmbracelet (Bubble Tea, Lipgloss, Glamour, Bubbles)"
 Ecosystem:   "18+ charm-* libraries (see charm-suite)"
-Security:    "GPG-signed commits Â· 2 SSH keys Â· verified identity"
+Security:    "GPG-signed commits - 2 SSH keys - verified identity"
 Status:      "Open to collaboration on terminal tooling"
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
 
-## Arsenal TÃ©cnico / Technical Arsenal
+## Arsenal Tecnico / Technical Arsenal
 
 <table align="center" width="100%">
 <tr>
 <td align="center" width="25%"><strong>Core Language</strong></td>
 <td align="center" width="25%"><strong>TUI Stack</strong></td>
 <td align="center" width="25%"><strong>Charm Suite (mine)</strong></td>
-<td align="center" width="25%"><strong>Tooling & Security</strong></td>
+<td align="center" width="25%"><strong>Tooling &amp; Security</strong></td>
 </tr>
 <tr>
 <td align="center">
@@ -70,7 +70,7 @@ Status:      "Open to collaboration on terminal tooling"
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
 
-## GitHub Stats & Activity
+## GitHub Stats &amp; Activity
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=junhinhow&show_icons=true&theme=gotham&hide_border=true&bg_color=0D1117&title_color=16A34A&icon_color=16A34A&text_color=C9D1D9" width="49%" alt="GitHub Stats"/>
