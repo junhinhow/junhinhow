@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     name: generate the 3D contribution graph
     steps:
+      - name: Checkout the profile repository
+        uses: actions/checkout@v4
+
       - name: Checkout snk-rs
         uses: actions/checkout@v4
         with:
@@ -20,6 +23,10 @@ jobs:
           path: snk-rs
 
       - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: snk-rs-3d
 
       - name: Build snk-rs
         run: cargo install --path snk-rs --locked
@@ -38,7 +45,10 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          if git commit -m "chore: regenerate the 3D contribution graph"; then
+          git add profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "the 3D profile did not change"
+          else
+            git commit -m "chore: regenerate the 3D contribution graph"
             git push
           fi
