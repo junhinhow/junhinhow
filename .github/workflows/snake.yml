@@ -1,4 +1,4 @@
-name: generate github contribution grid snake
+name: generate contribution snake
 
 on:
   schedule:
@@ -11,17 +11,50 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
-      - name: generate github contribution grid snake
+      - name: Checkout snk-rs
+        uses: actions/checkout@v4
+        with:
+          repository: junhinhow/snk-rs
+          path: snk-rs
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Build snk-rs
+        run: cargo install --path snk-rs --locked
+
+      - name: Generate the snake
+        run: |
+          mkdir -p dist
+          snk-rs --user junhinhow \
+            --palette github-dark \
+            --color-snake "#16A34A" \
+            --output dist/github-contribution-grid-snake-dark.svg
+          snk-rs --user junhinhow \
+            --palette github-light \
+            --color-snake "#8957E5" \
+            --output dist/github-contribution-grid-snake.svg
+
+      - name: Publish to the output branch
+        if: success()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          publish_branch: output
+
+      - name: Fallback with Platane/snk
+        if: failure()
         uses: Platane/snk@v3
         with:
           github_user_name: junhinhow
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github&color_snake=#16A34A
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#16A34A
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: push to the output branch
+      - name: Publish the fallback
+        if: failure()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
