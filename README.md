@@ -122,6 +122,15 @@ Status:      "Open to collaboration on terminal tooling"
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
 
+## Lately
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
+  <img src="profile-3d-contrib/profile-green-animate.svg" alt="Minhas contribuicoes em 3D / My contributions in 3D" width="100%">
+</picture>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
+
 ## Contato / Contact
 
 <div align="center">
