@@ -12,6 +12,10 @@
 <a href="https://github.com/junhinhow/charm-suite"><img src="https://img.shields.io/badge/Charm%20Suite-16A34A?style=for-the-badge&logo=go&logoColor=white" alt="Charm Suite"/></a>
 </div>
 <br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/junhinhow/junhinhow/main/media/banner.svg" width="100%" alt="Altair Jr - Go Developer building the Charmbracelet ecosystem" />
+</div>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
 
 ## Sobre Mim / About Me
