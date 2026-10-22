@@ -13,12 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     name: generate the 3D contribution graph
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout snk-rs
+        uses: actions/checkout@v4
+        with:
+          repository: junhinhow/snk-rs
+          path: snk-rs
 
-      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Build snk-rs
+        run: cargo install --path snk-rs --locked
+
+      - name: Generate the 3D profile
+        run: |
+          mkdir -p profile-3d-contrib
+          snk-rs --user junhinhow --format 3d --style night-green \
+            --token "${{ secrets.GITHUB_TOKEN }}" \
+            --output profile-3d-contrib/profile-night-green.svg
+          snk-rs --user junhinhow --format 3d --style green \
+            --token "${{ secrets.GITHUB_TOKEN }}" \
+            --output profile-3d-contrib/profile-green-animate.svg
 
       - name: Commit & Push
         run: |
