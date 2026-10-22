@@ -122,8 +122,6 @@ Status:      "Open to collaboration on terminal tooling"
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
 
-<!-- sync-check 100130 -->
-
 ## Contato / Contact
 
 <div align="center">
