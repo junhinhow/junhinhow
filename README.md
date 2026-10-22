@@ -76,7 +76,7 @@ Status:      "Open to collaboration on terminal tooling"
 <img src="https://github-readme-stats.vercel.app/api?username=junhinhow&show_icons=true&theme=gotham&hide_border=true&bg_color=0D1117&title_color=16A34A&icon_color=16A34A&text_color=C9D1D9" width="49%" alt="GitHub Stats"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=junhinhow&layout=compact&theme=gotham&hide_border=true&bg_color=0D1117&title_color=16A34A&text_color=C9D1D9" width="49%" alt="Top Languages"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=junhinhow&theme=gotham&hide_border=true&background=0D1117&stroke=16A34A&ring=16A34A&fire=16A34A&currStreakLabel=16A34A" width="60%" alt="GitHub Streak"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=junhinhow&theme=gotham&hide_border=true&bg_color=0D1117&color=16A34A&line=15803D&point=C9D1D9" width="90%" alt="Activity Graph"/>
+<img src="https://activity-graph.vercel.app/graph?username=junhinhow&theme=gotham&hide_border=true&bg_color=0D1117&color=16A34A&line=15803D&point=C9D1D9" width="90%" alt="Activity Graph"/>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
