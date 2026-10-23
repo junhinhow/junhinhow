@@ -2,7 +2,9 @@ name: Profile Views Badge
 
 on:
   schedule:
-    - cron: "30 */6 * * *"
+    # Once a day: komarev dedupes by IP, so a frequent refresh would only
+    # inflate the counter with our own requests.
+    - cron: "30 18 * * *"
   workflow_dispatch:
 
 permissions:
