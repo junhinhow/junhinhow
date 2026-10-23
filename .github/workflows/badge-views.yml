@@ -1,0 +1,32 @@
+name: Profile Views Badge
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  badge:
+    runs-on: ubuntu-latest
+    name: refresh the profile views badge
+    steps:
+      - name: Checkout the profile repository
+        uses: actions/checkout@v4
+
+      - name: Render the badge from the komarev counter
+        run: python3 .github/scripts/badge_views.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add media/badge-views.svg
+          if git diff --cached --quiet; then
+            echo "the badge did not change"
+          else
+            git commit -m "chore: refresh the profile views badge"
+            git push
+          fi
