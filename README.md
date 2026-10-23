@@ -6,7 +6,6 @@
 <br/>
 <img src="https://komarev.com/ghpvc/?username=junhinhow&label=Profile%20Views&color=16A34A&style=for-the-badge&cb=2" alt="Profile Views" />
 <img src="https://img.shields.io/github/followers/junhinhow?label=Followers&style=for-the-badge&color=15803D&logo=github" alt="Followers"/>
-<a href="https://github.com/junhinhow/snk-rs"><img src="https://raw.githubusercontent.com/junhinhow/junhinhow/main/media/badge-snk.svg" alt="Snake and 3D contribution graph rendered by snk-rs"/></a>
 <br/><br/>
 <a href="https://www.linkedin.com/in/PLACEHOLDER"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:aaltairjr@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
