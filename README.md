@@ -5,7 +5,7 @@
 </a>
 <br/>
 <img src="https://raw.githubusercontent.com/junhinhow/junhinhow/main/media/badge-views.svg" alt="Profile Views" />
-<img src="https://komarev.com/ghpvc/?username=junhinhow&style=for-the-badge" width="1" height="1" alt="" />
+<img src="https://komarev.com/ghpvc/?username=junhinhow&style=for-the-badge&cb=views" width="1" height="1" alt="" />
 <img src="https://img.shields.io/github/followers/junhinhow?label=Followers&style=for-the-badge&color=15803D&logo=github" alt="Followers"/>
 <br/><br/>
 <a href="https://www.linkedin.com/in/PLACEHOLDER"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
