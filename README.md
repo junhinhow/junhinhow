@@ -4,8 +4,7 @@
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=16A34A&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Altair+Jr;Go+Developer+from+Manaus%2C+Brazil;Building+the+Charmbracelet+Ecosystem;18%2B+TUI+libraries+and+counting;Always+shipping+terminal+tooling" alt="Typing SVG" />
 </a>
 <br/>
-<img src="https://komarev.com/ghpvc/?username=junhinhow&label=Profile%20Views&color=16A34A&style=for-the-badge" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/junhinhow?label=Followers&style=for-the-badge&color=15803D&logo=github" alt="Followers"/>
+<a href="https://github.com/junhinhow/snk-rs"><img src="https://raw.githubusercontent.com/junhinhow/junhinhow/main/media/badge-snk.svg" alt="Snake and 3D contribution graph rendered by snk-rs"/></a>
 <br/><br/>
 <a href="https://www.linkedin.com/in/PLACEHOLDER"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:aaltairjr@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -125,8 +124,8 @@ Status:      "Open to collaboration on terminal tooling"
 ## Lately
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
-  <img src="profile-3d-contrib/profile-green-animate.svg" alt="Minhas contribuicoes em 3D / My contributions in 3D" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/junhinhow/junhinhow/main/profile-3d-contrib/profile-night-green.svg">
+  <img src="https://raw.githubusercontent.com/junhinhow/junhinhow/main/profile-3d-contrib/profile-green-animate.svg" alt="Minhas contribuicoes em 3D / My contributions in 3D" width="100%">
 </picture>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>

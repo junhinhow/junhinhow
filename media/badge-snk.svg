@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178.8" height="28" role="img" aria-label="Snake and 3D contribution graph rendered by snk-rs">
+  <title>Snake and 3D contribution graph rendered by snk-rs</title>
+  <g shape-rendering="crispEdges">
+    <rect width="93.0" height="28" fill="#555555"/>
+    <rect x="93.0" width="85.8" height="28" fill="#16A34A"/>
+  </g>
+  <g fill="#ffffff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" letter-spacing="1.1" text-rendering="geometricPrecision">
+    <text x="46.5" y="18">SNAKE + 3D</text>
+    <text x="135.9" y="18">by snk-rs</text>
+  </g>
+</svg>
