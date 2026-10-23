@@ -4,6 +4,8 @@
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=16A34A&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Altair+Jr;Go+Developer+from+Manaus%2C+Brazil;Building+the+Charmbracelet+Ecosystem;18%2B+TUI+libraries+and+counting;Always+shipping+terminal+tooling" alt="Typing SVG" />
 </a>
 <br/>
+<img src="https://komarev.com/ghpvc/?username=junhinhow&label=Profile%20Views&color=16A34A&style=for-the-badge&cb=2" alt="Profile Views" />
+<img src="https://img.shields.io/github/followers/junhinhow?label=Followers&style=for-the-badge&color=15803D&logo=github" alt="Followers"/>
 <a href="https://github.com/junhinhow/snk-rs"><img src="https://raw.githubusercontent.com/junhinhow/junhinhow/main/media/badge-snk.svg" alt="Snake and 3D contribution graph rendered by snk-rs"/></a>
 <br/><br/>
 <a href="https://www.linkedin.com/in/PLACEHOLDER"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
