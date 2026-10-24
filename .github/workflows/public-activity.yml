@@ -1,0 +1,34 @@
+name: Public GitHub Activity
+
+on:
+  schedule:
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    name: refresh the public activity card
+    steps:
+      - name: Checkout the profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate the activity card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/public_activity.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add media/public-activity.svg
+          if git diff --cached --quiet; then
+            echo "the activity card did not change"
+          else
+            git commit -m "chore: refresh the public activity card"
+            git push
+          fi

@@ -86,6 +86,21 @@ Status:      "Open to collaboration on terminal tooling"
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
 
+<details>
+<summary>📊 Atividade pública no GitHub / Public GitHub Activity</summary>
+<br/>
+
+<div align="center">
+<a href="https://github.com/junhinhow">
+  <img src="https://raw.githubusercontent.com/junhinhow/junhinhow/main/media/public-activity.svg" width="100%" alt="Atividade pública no GitHub nos últimos 30 dias" />
+</a>
+</div>
+
+<sub>Este painel mede atividade pública do GitHub — não horas reais de programação. / This panel measures public GitHub activity, not actual coding time.</sub>
+</details>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
+
 ## Projetos em Destaque / Featured Projects
 
 <div align="center">
