@@ -138,6 +138,21 @@ Status:      "Open to collaboration on terminal tooling"
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
 
+<details>
+<summary>🏙️ Git City / Git City</summary>
+<br/>
+
+<div align="center">
+<a href="https://www.thegitcity.com/dev/junhinhow">
+  <img src="https://www.thegitcity.com/api/share-card/junhinhow?format=landscape&lang=pt" width="100%" alt="Meu prédio no Git City / My building in Git City" />
+</a>
+</div>
+
+<sub>PT: Meu perfil virou um prédio 3D na cidade — visite em <a href="https://www.thegitcity.com/dev/junhinhow"><strong>thegitcity.com/dev/junhinhow</strong></a>.<br/>EN: My profile became a 3D building in the city — visit at <a href="https://www.thegitcity.com/dev/junhinhow"><strong>thegitcity.com/dev/junhinhow</strong></a>.</sub>
+</details>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:16A34A,100:15803D&height=3&width=1000" width="100%"/>
+
 ## Lately
 
 <picture>
